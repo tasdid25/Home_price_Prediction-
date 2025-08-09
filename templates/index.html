@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<h2> Home price Prediction Form</h2>
+
+<form name="passdata" action="." method="POST">
+    <table>
+        <tr>
+            <td>
+                <label for="Predictor">House area (sq ft):</label>
+            </td>
+            <td>
+                <input type="text" id="Predictor" name="Predictor" required>
+            </td>
+        </tr>
+            <tr>
+            <td></td>
+            <td>
+                <input align="right" type="submit" value="Predict">
+            </td>
+        </tr>
+        </table>
+</form>
+<table>
+        <tr>
+            <td>
+                <label for="Result"> Predicted Price: </label>
+            </td>
+            <td>
+                <input type="text" id="Result" name="Result" value="{{p}}" required>
+            </td>
+        </tr>
+</table>
+</body>
+</html>
