@@ -3,21 +3,7 @@
 A **machine learning project** that predicts house prices based on various features such as location, size, and amenities.  
 This project demonstrates a full end-to-end ML workflow — from data preprocessing to model training, evaluation, and deployment.
 
----
 
-## 📌 Table of Contents
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Training](#model-training)
-- [Results](#results)
-- [Future Improvements](#future-improvements)
-- [License](#license)
-
----
 
 ## 📖 Project Overview
 The aim of this project is to build a **predictive model** that can estimate the selling price of a house based on its characteristics.  
@@ -63,5 +49,6 @@ The workflow includes:
 ---
 
 ## 📂 Project Structure
+
 
 
